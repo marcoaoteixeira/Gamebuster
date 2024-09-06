@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>latest</LangVersion>
+		<StartupObject>Nameless.Gamebuster.Storefront.EntryPoint</StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Common\Nameless.Gamebuster.Core\Nameless.Gamebuster.Core.csproj" />
+	  <ProjectReference Include="..\..\Host\Nameless.Gamebuster.Host.Core\Nameless.Gamebuster.Host.Core.csproj" />
+	  <ProjectReference Include="..\Nameless.Gamebuster.Storefront.Core\Nameless.Gamebuster.Storefront.Core.csproj" />
+	</ItemGroup>
+
+</Project>
